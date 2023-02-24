@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-animation: colorchange 5s infinite;
+    animation: colorchange 5s infinite;
+    }
+    @-webkit-keyframes colorchange {
+ 0%  {background: #33FFF3;}
+25%  {background: #78281F;}
+50%  {background: #117A65;}
+75%  {background: #DC7633;}
+100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+ 0%  {background: #33FFF3;}
+25%  {background: #78281F;}
+50%  {background: #117A65;}
+75%  {background: #DC7633;}
+100% {background: #9B59B6;}
+}
+
+.container{
+    text-align: center;
+    margin-top: 20%;
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 10px 5px 5px black;
+}
+
+.container span{
+    font-size: 3.5rem;
+    height: 100vh;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: black;
+    font-family: fantasy;
+    letter-spacing: 7px;
+}
